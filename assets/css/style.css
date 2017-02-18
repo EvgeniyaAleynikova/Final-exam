@@ -1,0 +1,235 @@
+/* -----------------------------------------
+ FONTS
+----------------------------------------- */
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../fonts/MYRIADPRO-REGULAR.woff") format("woff"), url("../fonts/MYRIADPRO-REGULAR.otf") format("otf");
+  font-style: normal;
+  font-weight: normal; }
+
+/* -----------------------------------------
+ GLOBAL
+----------------------------------------- */
+.text-center {
+  text-align: center; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.has-error {
+  border: 2px solid red;
+  background-color: red; }
+
+/* -----------------------------------------
+ HEADER
+----------------------------------------- */
+header {
+  background-image: url("../img/header-bg.png");
+  background-size: cover; }
+  header .navbar-default {
+    background-color: transparent;
+    border-color: transparent; }
+    header .navbar-default .navbar-nav li a {
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 900; }
+      header .navbar-default .navbar-nav li a:hover {
+        color: #f2385a; }
+    header .navbar-default .navbar-nav li:hover {
+      border-bottom: 1px solid #fff; }
+  header .jumbotron {
+    background-color: transparent; }
+    header .jumbotron .main-header h1 {
+      font-family: 'MyriadPro';
+      color: #ffffff;
+      font-size: 55px;
+      margin-top: 230px; }
+    header .jumbotron .main-header .main-button {
+      padding: 70px 0 220px 0; }
+      header .jumbotron .main-header .main-button button {
+        border-radius: 30px;
+        background-color: #f2385a;
+        padding: 20px 0;
+        width: 49%;
+        margin: 0 auto;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 100;
+        border: none;
+        outline: none; }
+        header .jumbotron .main-header .main-button button:hover {
+          background-color: #fff;
+          color: #f2385a; }
+        @media screen and (max-width: 768px) {
+          header .jumbotron .main-header .main-button button {
+            font-size: 15px; } }
+    @media screen and (max-width: 768px) {
+      header .jumbotron .main-header h1 {
+        margin-top: 100px; }
+      header .jumbotron .main-header .main-button {
+        padding: 40px 0 100px 0; } }
+  header .scroll-menu {
+    background-color: rgba(0, 0, 0, 0.3); }
+
+/* -----------------------------------------
+ About
+----------------------------------------- */
+#about-me {
+  padding: 65px 0; }
+  #about-me h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 25px;
+    font-weight: 900; }
+  #about-me p {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px; }
+  #about-me button {
+    background-color: transparent;
+    border: 1px solid #d7d7d7;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-top: 30px; }
+    #about-me button:hover {
+      background-color: #f2385a; }
+
+/* -----------------------------------------
+ Portfolio
+----------------------------------------- */
+#portfolio .image-container img {
+  float: left; }
+
+/* -----------------------------------------
+Slider
+----------------------------------------- */
+.slider-wrap .slides .slide-content-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 700; }
+
+.slider-wrap .slides .slide-content-subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 21px; }
+
+.slider-wrap .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  color: transparent; }
+
+.slider-wrap .slider-prev {
+  left: -5px; }
+
+.slider-wrap .slider-next {
+  right: -5px; }
+
+.del {
+  display: none; }
+
+/* -----------------------------------------
+Footer
+----------------------------------------- */
+footer {
+  position: relative; }
+  footer .pink-bg {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 220px;
+    background-color: #f2385a;
+    left: 0; }
+  footer .black-bg {
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    height: 220px;
+    background-color: #3c3c3c;
+    right: 0; }
+  footer .container-pink {
+    position: relative;
+    z-index: 2;
+    padding: 50px 0 40px 0; }
+    footer .container-pink ul li {
+      font-family: 'Roboto', sans-serif;
+      list-style: none;
+      display: inline-block;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 15px; }
+      footer .container-pink ul li a {
+        text-decoration: none;
+        color: #ffffff; }
+        footer .container-pink ul li a:hover {
+          color: #3c3c3c; }
+    footer .container-pink p {
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300; }
+    footer .container-pink .icons a {
+      font-size: 24px; }
+  footer .container-black {
+    position: relative;
+    z-index: 2;
+    padding: 50px 0 40px 0; }
+    footer .container-black .news-title {
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 900; }
+    footer .container-black input {
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 30px;
+      padding: 15px 22px;
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 300;
+      outline: none; }
+      footer .container-black input:focus {
+        border: 2px solid #fff; }
+    footer .container-black button {
+      background-color: #f2385a;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 300;
+      padding: 15px 33px; }
+      footer .container-black button:hover {
+        background-color: #fff;
+        color: #f2385a; }
+    footer .container-black .copir {
+      font-family: 'Roboto', sans-serif;
+      color: #a9a9a9;
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 40px; }
+  @media screen and (max-width: 992px) {
+    footer .pink-bg {
+      display: none; }
+    footer .black-bg {
+      display: none; }
+    footer .container-pink {
+      background-color: #f2385a; }
+    footer .container-black {
+      background-color: #3c3c3c; } }
